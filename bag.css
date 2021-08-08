@@ -1,0 +1,112 @@
+.w-30 {
+  width: 30%;
+}
+.lh-5 {
+  line-height: 5px;
+}
+.lh-20 {
+  line-height: 20px;
+}
+
+.top {
+  bottom: 20vw;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy {
+  border-radius: 20px;
+}
+
+input[type="checkbox"] {
+  filter: hue-rotate(140deg);
+}
+
+.navbar {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 6px 40px rgba(173, 173, 173, 0.25);
+}
+
+@media screen and (max-width: 700px) {
+  #main {
+    margin-top: -7vw;
+  }
+  #navigation {
+    flex-direction: column;
+  }
+  #logo {
+    display: flex;
+  }
+  #summary {
+    margin-top: 85vw;
+    width: 100vw;
+    margin-right: 50vw;
+    margin-left: -69vw;
+  }
+  #store-name {
+    font-size: 10px;
+  }
+  .card-body {
+    padding: 1vw;
+    line-height: 1px;
+  }
+  #button {
+    height: 1vw;
+    margin-right: 10vw;
+    font-size: 10px;
+  }
+  #total {
+    font-size: 10px;
+  }
+  #textshopping {
+    font-size: 10px;
+    width: 100vw;
+  }
+  #summary-title {
+    font-size: 20px;
+  }
+  #allitem {
+    width: 100vw;
+    font-size: 10px;
+  }
+  #section {
+    width: 100vw;
+  }
+  #product-name {
+    font-size: 12px;
+  }
+  #number {
+    font-size: 8px;
+  }
+  #summary {
+    margin-right: 10vh;
+    margin-top: 15vh;
+  }
+  #layout-summary {
+    width: 15vw;
+    height: 10vh;
+  }
+  #button {
+    font-size: 12px;
+    padding-bottom: 2vh;
+  }
+}
+
+@media screen and (min-width: 701px) {
+  #summary {
+    font-size: 14px;
+  }
+  #textshopping {
+    font-size: 16px;
+  }
+  #button {
+    font-size: 14px;
+  }
+  #logo {
+    display: flex;
+  }
+}

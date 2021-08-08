@@ -1,0 +1,142 @@
+header {
+  align-items: center;
+}
+
+nav {
+  letter-spacing: -60px;
+  line-height: 0;
+}
+
+.box {
+  width: 10%;
+  border-radius: 0;
+  height: 48px;
+  width: 123px;
+  left: 597px;
+  top: 258px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-name {
+  top: 20px;
+  font-weight: bolder;
+  position: relative;
+  color: #db3022;
+  font-size: larger;
+  font-size: 28px;
+  line-height: 20px;
+}
+
+.form {
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 30%;
+  height: 50%;
+  line-height: 600%;
+}
+
+.box-1 {
+  padding: 10px;
+  height: 48px;
+  width: 400px;
+  left: 0;
+  top: 0;
+}
+
+.line-height-18 {
+  line-height: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  #main {
+    line-height: 5vw;
+    margin: 30vw;
+    margin-top: -11vw;
+    margin-left: 30vw;
+  }
+  #text1 {
+    font-size: 13px;
+    width: 50vw;
+  }
+  #email {
+    width: 90vw;
+    margin-left: 10vw;
+  }
+  #password {
+    width: 90vw;
+    margin-left: 10vw;
+  }
+  #primary {
+    width: 90vw;
+    margin-left: 10vw;
+    border-radius: 50px;
+  }
+  #forgot {
+    font-size: 12px;
+    width: 100vw;
+    margin-left: auto;
+  }
+  #foot {
+    font-size: 10px;
+    margin-top: 2vw;
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #text1 {
+    text-align: center;
+  }
+  #foot {
+    font-size: 10px;
+  }
+  #password {
+    margin-top: 1vw;
+  }
+  #forgot {
+    margin-top: 1vw;
+  }
+  #inputbox {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  #primary {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  #main {
+    align-items: center;
+  }
+  #text1 {
+    text-align: center;
+  }
+  #foot {
+    font-size: 20px;
+    width: 50vw;
+    align-items: center;
+  }
+  #password {
+    margin-top: 1vw;
+  }
+  #forgot {
+    margin-top: 1vw;
+    font-size: 18px;
+  }
+  #inputbox {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  #primary {
+    border-radius: 50px;
+  }
+  #foot {
+    margin: 5vw;
+    margin-top: -1vw;
+  }
+}

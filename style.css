@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Metropolis;
+  src: url(metropolis.regular.otf);
+}
+
+body {
+  font-family: Metropolis;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-text {
+  top: 20px;
+  font-weight: bolder;
+  position: relative;
+  color: #db3022;
+  font-size: larger;
+  font-size: 28px;
+  line-height: 20px;
+}
+
+.red {
+  color: #db3022;
+}
+
+.bg-red {
+  background-color: #db3022;
+  color: white;
+}
+
+.bg-white {
+  border: 1px solid #9b9b9b;
+}
+
+.search-input {
+  border-radius: 20px;
+  border: 1px solid #9b9b9b;
+  width: 30vw;
+  margin: 0;
+}
+
+.search-icon {
+  right: 40px;
+  border: 0;
+}
+
+.search-button {
+  right: 40px;
+  border: 0;
+}
